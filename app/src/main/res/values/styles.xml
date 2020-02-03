@@ -1,0 +1,238 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--&lt;!&ndash; App branding color for the app bar &ndash;&gt;-->
+        <!--<item name="colorPrimary">#009688</item>-->
+        <!-- Theme UI controls like checkboxes and text fields -->
+        <item name="colorAccent">#536DFE</item>
+    </style>
+    
+    <!-- Customize the first page style. -->
+    <style name="irbPage">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginBottom">104dp</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <!--center of the screen</item>-->
+        <item name="android:textSize">36sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffff</item>
+        <!--<item name="android:background">#704927</item>-->
+        <!--<item name="android:background">#2eb8b8</item>-->
+        <!--<item name="android:background">#00cccc</item>-->
+        <!--<item name="android:padding">16dp</item>-->
+    </style>
+
+    <!-- Customize the name page style. -->
+    <style name="nameTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginBottom">104dp</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <!--center of the screen</item>-->
+        <item name="android:textSize">24sp</item>
+        <!--<item name="android:fontFamily">sans-serif-light</item>-->
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#3d3d5c</item>
+    </style>
+
+    <style name="nameStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:layout_marginTop">60dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <!--center of the screen</item>-->
+        <item name="android:textSize">36sp</item>
+        <!--<item name="android:fontFamily">sans-serif-light</item>-->
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#616161</item>
+        <item name="android:hint">Name</item>
+    </style>
+
+    <style name="nameStyle2">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">16dp</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <!--center of the screen</item>-->
+        <item name="android:textSize">40sp</item>
+        <!--<item name="android:fontFamily">sans-serif-light</item>-->
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#616161</item>
+        <item name="android:hint">Name</item>
+    </style>
+
+    <!-- Customize the header style. -->
+    <style name="irb">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_horizontal</item>
+        <!--<item name="android:fontFamily">sans-serif</item>-->
+        <item name="android:textSize">25sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:background">#4db3b3</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:padding">16dp</item>
+    </style>
+
+    <!-- Customize the question style. -->
+    <style name="questionStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">150dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <!--<item name="android:paddingBottom">16dp</item>-->
+    </style>
+
+    <!-- Customize the answer style - rounded button. -->
+    <style name="AppTheme.answerStyle" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:background">@drawable/rounded_shape_answer</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:layout_margin">8dp</item>
+        <!--<item name="android:background">#89baa1</item>-->
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#3d3d5c</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <!--<style name="answerStyle">-->
+        <!--<item name="android:layout_width">match_parent</item>-->
+        <!--<item name="android:layout_height">100dp</item>-->
+        <!--<item name="android:paddingLeft">8dp</item>-->
+        <!--<item name="android:layout_margin">8dp</item>-->
+        <!--&lt;!&ndash;<item name="android:background">#89baa1</item>&ndash;&gt;-->
+        <!--<item name="android:gravity">center_vertical</item>-->
+        <!--<item name="android:textSize">20sp</item>-->
+        <!--<item name="android:textColor">#000033</item>-->
+        <!--<item name="android:textAllCaps">false</item>-->
+    <!--</style>-->
+
+    <!-- Customize the score button style. -->
+    <style name="AppTheme.scoreButton" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:background">@drawable/rounded_shape</item>
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:padding">10dp</item>
+        <!--<item name="android:background">#2f3e7a</item>-->
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_margin">16dp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+
+    <!--&lt;!&ndash; Customize the radio group style. &ndash;&gt;-->
+    <!--<style name="radioGroupStyle">-->
+        <!--<item name="android:layout_width">match_parent</item>-->
+        <!--<item name="android:layout_height">wrap_content</item>-->
+        <!--<item name="android:gravity">center_vertical</item>-->
+        <!--<item name="android:layout_margin">16dp</item>-->
+    <!--</style>-->
+
+    <!--&lt;!&ndash; Customize the checkbox answer style. &ndash;&gt;-->
+    <!--<style name="checkBoxStyle">-->
+        <!--<item name="android:layout_width">match_parent</item>-->
+        <!--<item name="android:layout_height">wrap_content</item>-->
+        <!--<item name="android:paddingLeft">8dp</item>-->
+        <!--<item name="android:layout_margin">16dp</item>-->
+    <!--</style>-->
+
+
+    <!-- Customize the radio button style. -->
+    <!--<style name="answerRadioButton">-->
+    <!--<item name="android:layout_width">wrap_content</item>-->
+    <!--<item name="android:layout_height">wrap_content</item>-->
+    <!--<item name="android:textSize">16sp</item>-->
+    <!--<item name="android:textColor">#ffffff</item>-->
+    <!--<item name="android:background">#2f3e7a</item>-->
+    <!--</style>-->
+
+    <style name="button1">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:layout_margin">16dp</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:background">#704927</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <style name="startButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:background">#2f3e7a</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_margin">16dp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <!--<item name="android:layout_centerInParent">true</item>-->
+    </style>
+
+    <!-- Customize the total score text style. -->
+    <style name="scoreStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <!--<item name="android:layout_marginTop">40dp</item>&ndash;&gt;-->
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- Customize the total score style. -->
+    <style name="score">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">80sp</item>
+        <item name="android:textColor">#dd6216</item>
+        <item name="android:layout_margin">30dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- Customize the IRB question 1 style. -->
+    <style name="irbQuestionStyle1">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+    <!-- Customize the IRB question 2 style. -->
+    <style name="irbQuestionStyle2">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+</resources>

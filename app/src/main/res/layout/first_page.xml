@@ -1,0 +1,30 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f5f4ef">
+
+    <TextView
+        android:id="@+id/scoreAlexMake"
+        android:text="@string/name"
+        style="@style/nameTextStyle"/>
+
+        <EditText
+            android:id="@+id/name_field"
+            style="@style/nameStyle"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp">
+    <Button
+        android:id="@+id/nextPage"
+        android:onClick="toQuiz"
+        android:text="@string/next"
+        style="@style/startButton"/>
+    </RelativeLayout>
+
+</LinearLayout>
+

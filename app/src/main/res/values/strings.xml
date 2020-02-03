@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">IRB Quiz Final</string>
+<!--header text for toppings [char limts = 20] -->
+<string name="irbPage">When Do You Need IRB Review?</string>
+<string name="start">Click Here to Find Out! </string>
+<string name="name">Please Enter Your Name Below.</string>
+<string name="irb">IRB Quiz </string>
+<!--<Question 1>-->
+<string name="q1">1. What does IRB stands for in the context of research?</string>
+<string name="q1a">Information Research Board</string>
+<string name="q1b">Institutional Review Board</string>
+<string name="q1c">Internal Review Board</string>
+
+<!--<Question 2>-->
+<string name="q2">2. Which one of the following is not one of the two key question you need to ask to determine if your project needs an IRB approval?</string>
+<string name="q2a">Is my project research defined by the common rule?</string>
+<string name="q2b">Will the results of my project be published? </string>
+<string name="q2c">Does my project involve human subjects? </string>
+
+<!--<Question 3>-->
+<string name="q3">3. Which one of the following is least likely to be research?</string>
+<string name="q3a">An experiment designed to acquire new knowledge</string>
+<string name="q3b">A systematic investigation designed to contribute to generalizable knowledge</string>
+<string name="q3c">A routine testing and analysis of materials </string>
+
+<!--<Question 4>-->
+<string name="q4">4. Human subjects are a living individual about whom an investigator
+        conducting research obtains data through:</string>
+<string name="q4a">intervention/interaction or identifiable private information</string>
+<string name="q4b">deidentified information</string>
+<string name="q4c">through a trusted data provider</string>
+
+<!--<Question 5>-->
+<string name="q5">5. Which one of the following would probably require an IRB review? Check all that apply.</string>
+<string name="q5a">A study where participants are recruited to take the political survey.</string>
+<string name="q5b">A case study that involves the assessment of the student outreach program.</string>
+<string name="q5c">An MTurk experiment that gathers the opinions, experiences, or characteristics of the workers.</string>
+
+<string name="next">Next</string>
+<string name="scoreText">Your Score is:</string>
+<string name="totalScore"></string>
+<string name="irbQuestion1">Questions? </string>
+<string name="irbQuestion2">Please click the button below to conatct the Stanford IRB for non-medical studies. </string>
+<string name="contact">Contact IRB</string>
+<string name="correct">Correct!</string>
+<string name="wrong">Sorry, wrong answer!</string>
+
+<!--<string name="order_summary">ORDER</string>-->
+<!--<string name="order_summary_name">Name: <xliff:g id="name" example="Amy">%1$s</xliff:g></string>-->
+<!--<string name="order_summary_whipped_cream">Add whipped cream? <xliff:g id="addWhippedCream" example="true">%b</xliff:g></string>-->
+<!--<string name="order_summary_chocolate">Add chocolate? <xliff:g id="addChocolate" example="true">%b</xliff:g></string>-->
+<!--<string name="order_summary_quantity">Quantity: <xliff:g id="quantity" example="3">%1$d</xliff:g></string>-->
+<!--<string name="order_summary_price">Total: <xliff:g id="price" example="$15">%1$d</xliff:g></string>-->
+<!--<string name="thank_you">Thank You!</string>-->
+<!--<string name="order_summary_email_subject">Just Java Order for <xliff:g id="name" example="Amy">%1$s</xliff:g></string>-->
+
+<!--&lt;!&ndash; Toast message showing an error when more than 100 cups are ordered [CHAR LIMIT=40] &ndash;&gt;-->
+<!--<string name="toast_too_much">You cannot order more than 100 cups</string>-->
+
+<!--&lt;!&ndash; Toast message showing an error when less than 1 cup is ordered [CHAR LIMIT=40] &ndash;&gt;-->
+<!--<string name="toast_too_less">You cannot order less than 1 cup</string>-->
+
+</resources>
+

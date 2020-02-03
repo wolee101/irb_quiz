@@ -1,0 +1,55 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="24dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#f5f4ef">
+
+    <TextView
+        android:id="@+id/nameView"
+        android:text=""
+        style="@style/nameStyle2"/>
+    <TextView
+        android:id="@+id/textView"
+        android:text="@string/scoreText"
+        style="@style/scoreStyle"/>
+
+    <TextView
+        android:id="@+id/totalScoreView"
+        android:text="@string/totalScore"
+        style="@style/score"/>
+
+    <TextView
+        android:id="@+id/irbQuestion1"
+        android:text="@string/irbQuestion1"
+        style="@style/irbQuestionStyle1"/>
+
+    <TextView
+        android:id="@+id/irbQuestion2"
+        android:text="@string/irbQuestion2"
+        style="@style/irbQuestionStyle2"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/email"
+            android:onClick="emailIRB"
+            android:text="@string/contact"
+            style="@style/startButton"/>
+    </RelativeLayout>
+
+    <!--<ImageView-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="96dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:layout_margin="16dp"-->
+    <!--android:scaleType="fitCenter"-->
+    <!--android:src="@drawable/research"-->
+    <!--android:tag="https://images.nasa.gov/details-PIA01967.html"-->
+    <!--android:onClick="openBrowser"/>-->
+
+</LinearLayout>

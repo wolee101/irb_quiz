@@ -1,0 +1,42 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f5f4ef">
+
+    <TextView
+        android:id="@+id/irb"
+        android:text="@string/irb"
+        style="@style/irb"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/question"
+        style="@style/questionStyle" />
+
+    <Button
+        android:id="@+id/choice1"
+        style="@style/AppTheme.answerStyle"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/choice2"
+        style="@style/AppTheme.answerStyle"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/choice3"
+        style="@style/AppTheme.answerStyle"
+        android:layout_weight="1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+</LinearLayout>
+
